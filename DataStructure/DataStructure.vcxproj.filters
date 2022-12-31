@@ -13,15 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="DS.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <Filter Include="头文件\LinearList">
+      <UniqueIdentifier>{ff20d2be-1402-49d2-8178-be21a16fb0c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Stack and Queue">
+      <UniqueIdentifier>{3e0aff13-efe0-4a13-876b-77659ae9f80b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\String">
+      <UniqueIdentifier>{f19da6cf-763c-40ce-b2c3-179cc7e41956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Tree &amp; Binary Tree">
+      <UniqueIdentifier>{48430433-e87d-472f-8255-68fe832a67b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Graph">
+      <UniqueIdentifier>{af4d2367-19b9-42bc-85ce-b2acbf364b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Searching">
+      <UniqueIdentifier>{b5edaaef-ce88-4102-b8a7-fd6ca9d35528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Sorting">
+      <UniqueIdentifier>{88bcde8b-5db7-4a7b-8d53-9770137ce446}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
       <Filter>源文件</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SequenceList.h">
+      <Filter>头文件\LinearList</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>头文件\Stack and Queue</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
